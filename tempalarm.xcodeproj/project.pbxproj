@@ -180,6 +180,7 @@
 				80180D112729771600EE5C54 /* Sources */,
 				80180D122729771600EE5C54 /* Frameworks */,
 				80180D132729771600EE5C54 /* Resources */,
+				2AA107BC103ECB85CE763BC6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,6 +218,7 @@
 				80180D2B2729771B00EE5C54 /* Sources */,
 				80180D2C2729771B00EE5C54 /* Frameworks */,
 				80180D2D2729771B00EE5C54 /* Resources */,
+				2C902B427813C7DB6462E3BF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -298,6 +300,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2AA107BC103ECB85CE763BC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tempalarm/Pods-tempalarm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tempalarm/Pods-tempalarm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tempalarm/Pods-tempalarm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C902B427813C7DB6462E3BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tempalarm-tempalarmUITests/Pods-tempalarm-tempalarmUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tempalarm-tempalarmUITests/Pods-tempalarm-tempalarmUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tempalarm-tempalarmUITests/Pods-tempalarm-tempalarmUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		4628C6C29B9B27642FAA81D7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
