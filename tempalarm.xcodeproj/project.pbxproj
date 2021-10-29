@@ -10,12 +10,16 @@
 		372B524FCCDC64E879951DB7 /* Pods_tempalarm_tempalarmUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9F6605D0679E8F7FA89C134 /* Pods_tempalarm_tempalarmUITests.framework */; };
 		6082757B56F6B73528D91BC5 /* Pods_tempalarm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5DA348B2E5F7635669F9A5 /* Pods_tempalarm.framework */; };
 		80180D192729771600EE5C54 /* tempalarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80180D182729771600EE5C54 /* tempalarmApp.swift */; };
-		80180D1B2729771600EE5C54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80180D1A2729771600EE5C54 /* ContentView.swift */; };
 		80180D1D2729771A00EE5C54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80180D1C2729771A00EE5C54 /* Assets.xcassets */; };
 		80180D202729771A00EE5C54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80180D1F2729771A00EE5C54 /* Preview Assets.xcassets */; };
 		80180D2A2729771B00EE5C54 /* tempalarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80180D292729771B00EE5C54 /* tempalarmTests.swift */; };
 		80180D342729771B00EE5C54 /* tempalarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80180D332729771B00EE5C54 /* tempalarmUITests.swift */; };
 		80180D362729771B00EE5C54 /* tempalarmUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80180D352729771B00EE5C54 /* tempalarmUITestsLaunchTests.swift */; };
+		8018F924272C4E190015A39E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8018F923272C4E190015A39E /* MainView.swift */; };
+		8018F926272C4E2D0015A39E /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8018F925272C4E2D0015A39E /* HistoryView.swift */; };
+		8018F928272C4E380015A39E /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8018F927272C4E380015A39E /* AlarmView.swift */; };
+		8018F92A272C4E4A0015A39E /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8018F929272C4E4A0015A39E /* SettingView.swift */; };
+		8018F92E272C4E7D0015A39E /* ScrollableTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8018F92D272C4E7D0015A39E /* ScrollableTabBar.swift */; };
 		FC5FDD3D6996AD285DE07EC9 /* Pods_tempalarmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255E8FD2F61910AF6B0E2E7D /* Pods_tempalarmTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,7 +48,6 @@
 		7C6D8BFDE36002E61F94C284 /* Pods-tempalarm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tempalarm.debug.xcconfig"; path = "Target Support Files/Pods-tempalarm/Pods-tempalarm.debug.xcconfig"; sourceTree = "<group>"; };
 		80180D152729771600EE5C54 /* tempalarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tempalarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80180D182729771600EE5C54 /* tempalarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tempalarmApp.swift; sourceTree = "<group>"; };
-		80180D1A2729771600EE5C54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		80180D1C2729771A00EE5C54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80180D1F2729771A00EE5C54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		80180D252729771B00EE5C54 /* tempalarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tempalarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +56,11 @@
 		80180D332729771B00EE5C54 /* tempalarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tempalarmUITests.swift; sourceTree = "<group>"; };
 		80180D352729771B00EE5C54 /* tempalarmUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tempalarmUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		80180D4427297BFE00EE5C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8018F923272C4E190015A39E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8018F925272C4E2D0015A39E /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		8018F927272C4E380015A39E /* AlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmView.swift; sourceTree = "<group>"; };
+		8018F929272C4E4A0015A39E /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		8018F92D272C4E7D0015A39E /* ScrollableTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableTabBar.swift; sourceTree = "<group>"; };
 		B49ECA72E00E239A0F6A8EB5 /* Pods-tempalarm-tempalarmUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tempalarm-tempalarmUITests.debug.xcconfig"; path = "Target Support Files/Pods-tempalarm-tempalarmUITests/Pods-tempalarm-tempalarmUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BEB604C2373AA5F6CECF4222 /* Pods-tempalarmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tempalarmTests.release.xcconfig"; path = "Target Support Files/Pods-tempalarmTests/Pods-tempalarmTests.release.xcconfig"; sourceTree = "<group>"; };
 		DC5DA348B2E5F7635669F9A5 /* Pods_tempalarm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tempalarm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,8 +120,9 @@
 		80180D172729771600EE5C54 /* tempalarm */ = {
 			isa = PBXGroup;
 			children = (
+				8018F92C272C4E5C0015A39E /* Model */,
+				8018F92B272C4E510015A39E /* View */,
 				80180D182729771600EE5C54 /* tempalarmApp.swift */,
-				80180D1A2729771600EE5C54 /* ContentView.swift */,
 				80180D4427297BFE00EE5C54 /* Info.plist */,
 				80180D1C2729771A00EE5C54 /* Assets.xcassets */,
 				80180D1E2729771A00EE5C54 /* Preview Content */,
@@ -144,6 +153,25 @@
 				80180D352729771B00EE5C54 /* tempalarmUITestsLaunchTests.swift */,
 			);
 			path = tempalarmUITests;
+			sourceTree = "<group>";
+		};
+		8018F92B272C4E510015A39E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8018F923272C4E190015A39E /* MainView.swift */,
+				8018F925272C4E2D0015A39E /* HistoryView.swift */,
+				8018F927272C4E380015A39E /* AlarmView.swift */,
+				8018F929272C4E4A0015A39E /* SettingView.swift */,
+				8018F92D272C4E7D0015A39E /* ScrollableTabBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8018F92C272C4E5C0015A39E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		8D1E4B7469002F9137380DFF /* Frameworks */ = {
@@ -407,8 +435,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80180D1B2729771600EE5C54 /* ContentView.swift in Sources */,
+				8018F92E272C4E7D0015A39E /* ScrollableTabBar.swift in Sources */,
 				80180D192729771600EE5C54 /* tempalarmApp.swift in Sources */,
+				8018F92A272C4E4A0015A39E /* SettingView.swift in Sources */,
+				8018F924272C4E190015A39E /* MainView.swift in Sources */,
+				8018F928272C4E380015A39E /* AlarmView.swift in Sources */,
+				8018F926272C4E2D0015A39E /* HistoryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
